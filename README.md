@@ -12,5 +12,5 @@ Informaçõe do programa:
   Nome do arquivo do sistema: Index.html, sytle.css, script.js  
   Tipo de sistema: Site  
   Versão do sistema: 1.0  
-  O que o sistema faz: é uma barra lateral com layout resposivo, com eventos de mouse e outras coisas.
+  O que o sistema faz: é uma barra lateral com layout resposivo, com eventos de mouse e outras coisas.  
   Link para ver o site executado: https://barralateralresponsiva.netlify.app/
