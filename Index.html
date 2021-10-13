@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra Lateral Responsiva</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bxl-github'></i>
+                <div class="logo_name">Barra Lateral</div>
+            </div>
+            <i class='bx bx-menu' id="btn" onclick="btnClick()"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <a href="#" onclick="HomeClick()">
+                    <i class='bx bx-home'></i>
+                    <span class="links_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                    <i class='bx bx-search' onclick="searchClick()"></i>
+                    <input type="text" placeholder="Pesquisar" id="SearchInput" oninput="searchTextChanged()">
+                <span class="tooltip">Pesquisar</span>
+            </li>
+            <li>
+                <a href="#" onclick="UserClick()">
+                    <i class='bx bx-user' ></i>
+                    <span class="links_name">Usuário</span>
+                </a>
+                <span class="tooltip">Usuário</span>
+            </li>
+            <li>
+                <a href="#" onclick="MessagesClick()">
+                    <i class='bx bx-chat' ></i>
+                    <span class="links_name">Mensagens</span>
+                </a>
+                <span class="tooltip">Mensagens</span>
+            </li>
+            <li>
+                <a href="#" onclick="AnalyticsClick()">
+                    <i class='bx bx-pie-chart-alt-2' ></i>
+                    <span class="links_name">Analytics</span>
+                </a>
+                <span class="tooltip">Analytics</span>
+            </li>
+            <li>
+                <a href="#" onclick="FileManagerClick()">
+                    <i class='bx bx-folder' ></i>
+                    <span class="links_name">Arquivos</span>
+                </a>
+                <span class="tooltip">Arquivos</span>
+            </li>
+            <li>
+                <a href="#" onclick="OrderClick()">
+                    <i class='bx bx-cart' ></i>
+                    <span class="links_name">Carrinho</span>
+                </a>
+                <span class="tooltip">Carrinho</span>
+            </li>
+            <li>
+                <a href="#" onclick="FavoritosClick()">
+                    <i class='bx bx-heart' ></i>
+                    <span class="links_name">Favoritos</span>
+                </a>
+                <span class="tooltip">Favoritos</span>
+            </li>
+            <li>
+                <a href="#" onclick="SettingsClick()">
+                    <i class='bx bx-cog' ></i>
+                    <span class="links_name">Configurações</span>
+                </a>
+                <span class="tooltip">Configurações</span>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_datails">
+                    <img src="profile.jpg" alt="">
+                    <div class="name_job" onclick="CallLinkedin()">
+                        <p>
+                            <div class="name">Breno Cardoso</div>
+                            <div class="job">Developer</div>
+                        </p>
+                    </div>
+                </div>
+                <i class='bx bx-log-out' id="log_out" onclick="LogoutClick()"></i>
+            </div>
+        </div>
+    </div>
+    <div class="home_content">
+        <div class="text">Home Content</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
