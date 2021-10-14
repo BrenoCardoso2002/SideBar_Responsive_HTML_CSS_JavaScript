@@ -6,7 +6,7 @@ var InputSearch = document.querySelector("#SearchInput")
 
 // Função de link que vai para o linkedin:
 function CallLinkedin(){
-    window.open("https://www.linkedin.com/in/breno-bernardo-da-silva-cardoso-4087b0205")
+    window.open("https://www.linkedin.com/in/breno-bernardo-da-silva-cardoso/")
 }
 
 function btnClick(){
